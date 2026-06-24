@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0",
+  "built_at": "2026-06-24T00:00:00Z",
+  "framework": "nextjs",
+  "framework_version": "15.3.0",
+  "iteration": 1,
+  "routes": [
+    { "path": "/", "component": "app/page.tsx", "title": "Home" },
+    { "path": "/about", "component": "app/about/page.tsx", "title": "About Bradley Coxe" },
+    { "path": "/accidents", "component": "app/accidents/page.tsx", "title": "Accidents & Personal Injury" },
+    { "path": "/real-estate", "component": "app/real-estate/page.tsx", "title": "Real Estate & Property Law" },
+    { "path": "/business", "component": "app/business/page.tsx", "title": "Business Law" },
+    { "path": "/contact", "component": "app/contact/page.tsx", "title": "Contact Us" }
+  ],
+  "components": [
+    "components/Header.tsx",
+    "components/Footer.tsx",
+    "components/PageHero.tsx",
+    "components/Testimonials.tsx",
+    "components/ContactBar.tsx"
+  ],
+  "improvements_applied": [
+    "Semantic HTML with proper header/nav/main/footer landmarks",
+    "ARIA labels on all interactive elements and sections",
+    "Mobile-first responsive layout with hamburger menu",
+    "Keyboard-accessible navigation",
+    "Sticky header for easy phone number access on mobile",
+    "Stats hero block replacing static banner image (no CLS)",
+    "Practice area cards with clear CTAs on homepage",
+    "Numbered process steps on practice area pages",
+    "Contact form with proper label associations and required field indicators",
+    "Structured address with <address> tag",
+    "SEO metadata via Next.js Metadata API on every route",
+    "Open Graph tags",
+    "Color contrast: navy #1a2e4a + gold #c9a84c on white passes WCAG AA",
+    "No broken image dependencies — remote images allowlisted in next.config.ts",
+    "TypeScript strict mode — zero type errors",
+    "Legal disclaimer and no-attorney-client-relationship notice in footer",
+    "Service area listed in footer for local SEO"
+  ],
+  "typescript_errors": 0,
+  "changes_from_prior_iteration": null
+}
